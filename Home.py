@@ -9,14 +9,6 @@ st.set_page_config(
     initial_sidebar_state='expanded'
 )
 
-FILE_DIR = os.path.dirname(os.path.abspath(__file__))
-PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
-dir_of_interest = os.path.join(PARENT_DIR, "resources")
-IMAGE_PATH = os.path.join(dir_of_interest,"Cover.png")
-
-img = image.imread(IMAGE_PATH)
-
-st.image(img,width=200)
 
 st.title(':red[Automated Notes Maker] :copyright:')
 
