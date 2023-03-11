@@ -4,6 +4,7 @@ import os
 st.set_page_config(
     page_title='Automated Notes Maker',
     layout='wide',
+    page_icon=':microphone:',
     initial_sidebar_state='expanded'
 )
 
