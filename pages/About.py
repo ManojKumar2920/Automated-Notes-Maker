@@ -22,7 +22,7 @@ if click == True:
     
 
     url = 'https://www.linkedin.com/in/manojkumar20'
-    st.markdown(f'''<a href={url}><button style="background-color:lightblue;font-weight: bold;border: none;color: black;padding: 10px 20px;">Linkedin</button></a>''',unsafe_allow_html=True)
+    st.markdown(f'''<a href={url}><button style="background-color:lightblue;">Linkedin</button></a>''',unsafe_allow_html=True)
     
     url = 'https://github.com/ManojKumar2920'
     st.markdown(f'''<a href={url}><button style="background-color:white;">Github</button></a>''',unsafe_allow_html=True) 
@@ -86,4 +86,4 @@ if click3 == True:
     st.markdown(f'''<a href={url}><button style="background-color:white;">Github</button></a>''',unsafe_allow_html=True) 
     
     url = 'https://www.instagram.com/siva_subramanian_1909'
-    st.markdown(f'''<a href={url}><button style="background-
+    st.markdown(f'''<a href={url}><<button style="background-color:lightpink;font-weight: bold;border: none;color: black;padding: 10px 20px;">Instagram</button></a>''',unsafe_allow_html=True
