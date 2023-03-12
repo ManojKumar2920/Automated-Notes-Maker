@@ -106,4 +106,4 @@ if uploaded_file is not None:
     if file_ext in ["wav"]:
         with open("temp." + file_ext, "wb") as f:
             f.write(uploaded_file.getbuffer())
-        st.success("File uploaded
+        st.success("File uploaded")
