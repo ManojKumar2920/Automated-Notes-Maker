@@ -22,13 +22,13 @@ if click == True:
     
 
     url = 'https://www.linkedin.com/in/manojkumar20'
-    st.markdown(f'''<a href={url}><button style="background-color:lightblue;">Linkedin</button></a>''',unsafe_allow_html=True)
+    st.markdown(f'''<a href={url}><button style="background-color:lightblue;font-weight: bold;border: none;color: black;padding: 10px 20px;">Linkedin</button></a>''',unsafe_allow_html=True)
     
     url = 'https://github.com/ManojKumar2920'
-    st.markdown(f'''<a href={url}><button style="background-color:white;">Github</button></a>''',unsafe_allow_html=True) 
+    st.markdown(f'''<a href={url}><button style="background-color:white;font-weight: bold;border: none;color: black;padding: 10px 20px;">Github</button></a>''',unsafe_allow_html=True) 
     
     url = 'https://instagram.com/mano._29'
-    st.markdown(f'''<a href={url}><button style="background-color:lightpink;">Instagram</button></a>''',unsafe_allow_html=True) 
+    st.markdown(f'''<a href={url}><button style="background-color:lightpink;font-weight: bold;border: none;color: black;padding: 10px 20px;">Instagram</button></a>''',unsafe_allow_html=True) 
     
 
 #Janani
@@ -51,13 +51,13 @@ if click2 == True:
     
 
     url = 'https://www.linkedin.com/in/janani-p-7a791222a'
-    st.markdown(f'''<a href={url}><button style="background-color:lightblue;">Linkedin</button></a>''',unsafe_allow_html=True)
+    st.markdown(f'''<a href={url}><button style="background-color:lightblue;font-weight: bold;border: none;color: black;padding: 10px 20px;">Linkedin</button></a>''',unsafe_allow_html=True)
     
     url = 'https://github.com/Jananikani'
-    st.markdown(f'''<a href={url}><button style="background-color:white;">Github</button></a>''',unsafe_allow_html=True) 
+    st.markdown(f'''<a href={url}><button style="background-color:white;font-weight: bold;border: none;color: black;padding: 10px 20px;">Github</button></a>''',unsafe_allow_html=True) 
     
     url = 'https://www.instagram.com/janani_kanii/'
-    st.markdown(f'''<a href={url}><button style="background-color:lightpink;">Instagram</button></a>''',unsafe_allow_html=True) 
+    st.markdown(f'''<a href={url}><button style="background-color:lightpink;font-weight: bold;border: none;color: black;padding: 10px 20px;">Instagram</button></a>''',unsafe_allow_html=True) 
     
 
 #Siva
@@ -80,10 +80,10 @@ if click3 == True:
     
 
     url = 'https://www.linkedin.com/in/siva-subramanian-86017022a'
-    st.markdown(f'''<a href={url}><button style="background-color:lightblue;">Linkedin</button></a>''',unsafe_allow_html=True)
+    st.markdown(f'''<a href={url}><button style="background-color:lightblue;font-weight: bold;border: none;color: black;padding: 10px 20px;">Linkedin</button></a>''',unsafe_allow_html=True)
     
     url = 'https://github.com/G-Siva'
-    st.markdown(f'''<a href={url}><button style="background-color:white;">Github</button></a>''',unsafe_allow_html=True) 
+    st.markdown(f'''<a href={url}><button style="background-color:white;font-weight: bold;border: none;color: black;padding: 10px 20px;">Github</button></a>''',unsafe_allow_html=True) 
     
     url = 'https://www.instagram.com/siva_subramanian_1909'
-    st.markdown(f'''<a href={url}><<button style="background-color:lightpink;font-weight: bold;border: none;color: black;padding: 10px 20px;">Instagram</button></a>''',unsafe_allow_html=True)
+    st.markdown(f'''<a href={url}><button style="background-color:lightpink;font-weight: bold;border: none;color: black;padding: 10px 20px;">Instagram</button></a>''',unsafe_allow_html=True)
