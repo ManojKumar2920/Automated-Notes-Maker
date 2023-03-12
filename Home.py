@@ -1,6 +1,4 @@
 import streamlit as st
-from matplotlib import image
-import os
 
 st.set_page_config(
     page_title='Automated Notes Maker',
@@ -9,36 +7,37 @@ st.set_page_config(
     initial_sidebar_state='expanded'
 )
 
-# Define CSS styles
-css_styles = """
-<style>
-h1 {
-    color: #FF0000;
-    text-align: center;
-    font-size: 50px;
-    margin-top: 50px;
-}
-h2 {
-    color: #008080;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 30px;
-}
-p {
-    font-size: 20px;
-    text-align: justify;
-    margin: 20px 0;
-}
-</style>
-"""
+st.markdown(
+    """
+    <style>
+    .title {
+        font-size: 36px;
+        color: #ff0000;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .subtitle {
+        font-size: 24px;
+        color: #0000ff;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .author {
+        font-size: 18px;
+        color: #808080;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-# Render CSS styles
-st.markdown(css_styles, unsafe_allow_html=True)
+st.title('<p class="title">Automated Notes Maker</p>', unsafe_allow_html=True)
 
-# Render content with CSS styles applied
-st.title('Automated Notes Maker')
-st.header('Authors')
-st.write('Manoj Kumar')
-st.write('Janani')
-st.write('Siva Subramanian')
-st.write('Automated notes maker from audio recordings is a tool used to covert the recordings of online classes and audio file to document notes. We build this using some Machine Learning algorithms to transcribe the spoken words into text and then create a summary or notes based on the transcribed text.')
+st.write('Automated notes maker from audio recordings is a tool used to covert the recordings of online classes and audio file to document notes . We build this using some Machine Learning algorithms to transcribe the spoken words into text and then create a summary or notes based on the transcribed text')
+
+st.markdown('<p class="subtitle">Authors</p>', unsafe_allow_html=True)
+st.markdown('<p class="author">Manoj Kumar</p>', unsafe_allow_html=True)
+st.markdown('<p class="author">Janani</p>', unsafe_allow_html=True)
+st.markdown('<p class="author">Siva Subramanian</p>', unsafe_allow_html=True)
