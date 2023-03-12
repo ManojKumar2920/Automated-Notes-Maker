@@ -8,7 +8,7 @@ def style_button(color):
         background-color: {color};
         border-radius: 5px;
         border: none;
-        color: white;
+        color: black;
         font-weight: bold;
         padding: 10px 20px;
     """
