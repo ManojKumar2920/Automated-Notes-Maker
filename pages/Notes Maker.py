@@ -75,6 +75,28 @@ def convert_to_docx(audio, filepath):
         st.write("Thank you for using our Audio to Text Converter!")
 
 
+st.markdown("""
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif;
+            color: #333333;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+        .btn-primary:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 st.title("Audio to Text Converter")
 
 uploaded_file = st.file_uploader("Upload an audio file", type=["wav"])
@@ -84,10 +106,4 @@ if uploaded_file is not None:
     if file_ext in ["wav"]:
         with open("temp." + file_ext, "wb") as f:
             f.write(uploaded_file.getbuffer())
-        st.success("File uploaded successfully")
-
-        if st.button("Convert to Text"):
-            convert_to_docx("temp." + file_ext, "Transcribed Notes.docx")
-            
-
-
+        st.success("File uploaded
