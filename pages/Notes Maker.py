@@ -54,9 +54,13 @@ def convert_to_docx(audio, filepath):
         st.warning("Audio quality is too low. Please upload a clearer audio file.")
         return
     wav_file=convert_to_wav(audio)
-    text=audio_to_text(wav_file)
-    filename=os.path.splitext(audio)[0]
-    create_document(filename, text, filepath)
+    
+    # Add a loading spinner while the file is being converted
+    with st.spinner("Converting file..."):
+        text=audio_to_text(wav_file)
+        filename=os.path.splitext(audio)[0]
+        create_document(filename, text, filepath)
+    
     st.success("File successfully converted to text")
     
     # Print transcribed text
