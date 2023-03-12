@@ -33,7 +33,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title('<p class="title">Automated Notes Maker</p>', unsafe_allow_html=True)
+st.markdown('<p class="title">Automated Notes Maker</p>', unsafe_allow_html=True)
 
 st.write('Automated notes maker from audio recordings is a tool used to covert the recordings of online classes and audio file to document notes . We build this using some Machine Learning algorithms to transcribe the spoken words into text and then create a summary or notes based on the transcribed text')
 
