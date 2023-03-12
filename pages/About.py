@@ -12,7 +12,7 @@ IMAGE_PATH = os.path.join(dir_of_interest, "Mano.jpg")
 img = image.imread(IMAGE_PATH)
 
 # First column: Image
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([1, 2])
 with col1:
     st.image(img, width=200)
 
@@ -84,9 +84,9 @@ with col1:
 
 # Second column: Information
 with col2:
-    st.header('Janani')
+    st.header('Siva')
 
-    click2 = st.button('Know about Janani')
+    click2 = st.button('Know about Siva')
     if click2 == True:
         st.write('Full Stack Enthusiast')
         st.write('Follow and Connect with on these platforms !')
