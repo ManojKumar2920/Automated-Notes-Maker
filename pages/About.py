@@ -101,4 +101,4 @@ with col2:
 click2 = st.button('Know about Janani', key='Janani')
 if click2 == True:
     st.write('Full Stack Enthusiast')
-    st.write('Follow and Connect with on these platforms !
+    st.write('Follow and Connect with on these platforms !')
