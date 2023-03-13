@@ -4,9 +4,11 @@ st.set_page_config(
     page_title='Automated Notes Maker',
     layout='wide',
     page_icon=':microphone:',
-    page_bg_color="#f8f9fa",
     initial_sidebar_state='expanded',
-    text_color= 'black'
+    # add CSS styles for background color
+    page_bg_color="#f8f9fa",
+    # set text color to black for better contrast
+    text_color="black"
 )
 
 st.markdown(
