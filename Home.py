@@ -8,39 +8,29 @@ st.set_page_config(
 )
 
 st.markdown(
-    f"""
+    """
     <style>
-        /* Set the background image */
-        body {{
-            background-image: url('https://images.app.goo.gl/yhdeNQGRajC5xUiT7');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }}
-
-        .title {{
-            font-size: 36px;
-            color: #ff0000;
-            text-align: center;
-            margin-bottom: 50px;
-        }}
-        
-        .subtitle {{
-            font-size: 24px;
-            color: #0000ff;
-            text-align: center;
-            margin-bottom: 30px;
-        }}
-        
-        .author {{
-            font-size: 18px;
-            color: #808080;
-            text-align: center;
-            margin-bottom: 20px;
-        }}
+    .title {
+        font-size: 36px;
+        color: #ff0000;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .subtitle {
+        font-size: 24px;
+        color: #0000ff;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .author {
+        font-size: 18px;
+        color: #808080;
+        text-align: center;
+        margin-bottom: 20px;
+    }
     </style>
     """,
-    unsafe_allow_html=True,
+    unsafe_allow_html=True
 )
 
 st.markdown('<p class="title">Automated Notes Maker</p>', unsafe_allow_html=True)
