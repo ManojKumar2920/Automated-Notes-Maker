@@ -5,7 +5,7 @@ st.set_page_config(
     layout='wide',
     page_icon=':microphone:',
     page_bg_color="#f8f9fa",
-    initial_sidebar_state='expanded'
+    initial_sidebar_state='expanded',
     text_color= 'black'
 )
 
