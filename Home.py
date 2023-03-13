@@ -45,15 +45,6 @@ st.markdown(
 
 st.markdown('<p class="title">Automated Notes Maker</p>', unsafe_allow_html=True)
 
-st.write('Automated notes maker from audio recordings is a tool used to covert the recordings of online classes and audio file to document notes . We build this using some Machine Learning algorithms to transcribe the spoken words into text and then create a summary or notes based on
-
-
-···
-
-ChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems mo
-
-st.markdown('<p class="title">Automated Notes Maker</p>', unsafe_allow_html=True)
-
 st.write('Automated notes maker from audio recordings is a tool used to covert the recordings of online classes and audio file to document notes . We build this using some Machine Learning algorithms to transcribe the spoken words into text and then create a summary or notes based on the transcribed text')
 
 st.markdown('<p class="subtitle">Authors</p>', unsafe_allow_html=True)
