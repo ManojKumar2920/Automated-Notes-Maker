@@ -8,30 +8,49 @@ st.set_page_config(
 )
 
 st.markdown(
-    """
+    f"""
     <style>
-    .title {
-        font-size: 36px;
-        color: #ff0000;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    .subtitle {
-        font-size: 24px;
-        color: #0000ff;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .author {
-        font-size: 18px;
-        color: #808080;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+        /* Set the background image */
+        body {{
+            background-image: url('https://images.app.goo.gl/yhdeNQGRajC5xUiT7');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }}
+
+        .title {{
+            font-size: 36px;
+            color: #ff0000;
+            text-align: center;
+            margin-bottom: 50px;
+        }}
+        
+        .subtitle {{
+            font-size: 24px;
+            color: #0000ff;
+            text-align: center;
+            margin-bottom: 30px;
+        }}
+        
+        .author {{
+            font-size: 18px;
+            color: #808080;
+            text-align: center;
+            margin-bottom: 20px;
+        }}
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
+
+st.markdown('<p class="title">Automated Notes Maker</p>', unsafe_allow_html=True)
+
+st.write('Automated notes maker from audio recordings is a tool used to covert the recordings of online classes and audio file to document notes . We build this using some Machine Learning algorithms to transcribe the spoken words into text and then create a summary or notes based on
+
+
+···
+
+ChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems mo
 
 st.markdown('<p class="title">Automated Notes Maker</p>', unsafe_allow_html=True)
 
